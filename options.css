@@ -1,0 +1,76 @@
+#opt-wrap {
+    background-color: #f1f1f1;
+    max-width: 40rem;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 1px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+    font-family: 'Courier New', 'sans-serif';
+}
+
+#nwpapi_auth_title {
+    color: #5759ab;
+    font-weight: 900;
+    border-bottom: 0.25rem solid rgba(37, 147, 199, 0.78);
+    background-color: #fff;
+    font-size: 25px;
+    line-height: 2.4rem;
+    box-shadow: 0 1px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+    text-transform: uppercase;
+}
+
+#nwpapi_auth_usr, #nwpapi_auth_pw {
+    line-height: 1.4rem;
+    color: #2e4453;
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 1rem 0;
+    background-color: #fafafa;
+    border-bottom: 0.5rem solid rgba(37, 147, 199, 0.78);
+}
+
+#nwpapi_auth_usr input, #nwpapi_auth_pw input  {
+    color: #5759ab;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+div#nwpapi_auth_submit p.submit {
+    line-height: 1.4rem;
+    font-weight: 600;
+    text-align: center !important;
+    padding: 1rem 0 !important;
+    background-color: #fafafa;
+    border-bottom: 0.2rem solid rgba(37, 147, 199, 0.78);
+}
+
+input#save {
+    color: #ffffff !important;
+    font-size: 21px !important;
+    background-color:  darkslategray !important;
+    border: 1px solid transparent !important;
+    box-shadow: 0 0 1px green !important;
+    text-shadow: none;
+    display: inline !important;
+    line-height: 0 !important;
+    height: 3.5rem !important;
+    width: 10rem !important;
+    margin: 0 !important;
+    padding: 2px 14px !important;
+    cursor: pointer !important;
+    border-radius: 0.15rem !important;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+}
+
+input#save.opt_btn:hover {
+    cursor: pointer;
+    background-color: rgba(37, 147, 199, 0.78) !important;
+}
+
+div#opt-wrap div.updated p {
+    font-size: 48px;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 900;
+}
